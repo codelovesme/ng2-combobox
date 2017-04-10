@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "./scripts/clean.sh",
+    "cleants": "./scripts/cleants.sh",
     "lint": "tslint \"src/**/*.ts\" --exclude \"src/**/*.d.ts\"",
     "dev": "tsc --watch",
     "prepublish": "tsc"
